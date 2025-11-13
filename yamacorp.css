@@ -28,6 +28,7 @@ body {
   background: none;
   border: none;
   cursor: pointer;
+  color: black;
 }
 
 /* スライドメニュー */
@@ -69,6 +70,7 @@ body {
   border: none;
   cursor: pointer;
   margin-bottom: 20px;
+  color: black;
 }
 
 .side-logo {
