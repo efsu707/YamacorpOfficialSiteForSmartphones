@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>山岸コーポレーション</title>
+  <link rel="stylesheet" href="yamacorp.css" />
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="navbar">
+    <div class="header-left">
+      <img class="ylogo" src="ylogo.png" alt="ロゴ" />
+    </div>
+    <button class="menu-toggle" aria-label="メニューを開く">☰</button>
+  </header>
+
+  <!-- スライドメニュー -->
+  <nav class="side-menu">
+    <button class="close-btn" aria-label="メニューを閉じる">×</button>
+    <ul>
+      <li><a href="#message">社長メッセージ</a></li>
+      <li><a href="#members">従業員紹介</a></li>
+      <li><a href="#contact">お問い合わせ</a></li>
+    </ul>
+    <div class="side-logo">
+      <img class="pluslogo" src="pluslogo.png" alt="PLUSロゴ" />
+    </div>
+  </nav>
+
+  <!-- ヒーローセクション -->
+  <section class="hero">
+    <img class="hero-image" src="itsuki.png" alt="背景画像" />
+    <div class="hero-text">
+      <h1 class="hero-h1">すべてはプラスの御心のままに。</h1>
+      <a href="#contact" class="hero-btn">今すぐ参加</a>
+    </div>
+  </section>
+
+  <!-- メインコンテンツ -->
+  <main>
+    <section id="message">
+      <h2>代表取締役社長より</h2>
+      <p>私たちは、創造と技術で社会に貢献することを使命としています。</p>
+    </section>
+
+    <section id="members">
+      <h2>従業員紹介</h2>
+      <p>個性豊かなメンバーが、日々挑戦と成長を続けています。</p>
+    </section>
+
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <form>
+        <input type="text" placeholder="お名前" required />
+        <input type="email" placeholder="メールアドレス" required />
+        <textarea placeholder="お問い合わせ内容" required></textarea>
+        <button type="submit">送信</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <p>&copy; 2025 山岸コーポレーション</p>
+  </footer>
+
+  <script src="yamacorp.js"></script>
+</body>
+</html>
