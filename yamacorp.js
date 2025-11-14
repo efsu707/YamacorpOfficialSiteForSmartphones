@@ -20,7 +20,6 @@ window.onload = () => {
 
   // フォーム送信
   document.querySelector("form").addEventListener("submit", (e) => {
-    e.preventDefault();
     alert("お問い合わせありがとうございます！");
   });
 };
